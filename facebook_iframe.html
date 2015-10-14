@@ -1,0 +1,338 @@
+<!doctype html>
+
+<html>
+  
+  <head>
+    <title>Off Canvas Nav</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://djyhxgczejc94.cloudfront.net/frameworks/bootstrap/3.0.0/themes/white-plum/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '870172006370605',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+    <style type="text/css">
+      /*       * Style tweaks       * --------------------------------------------------       */
+      body {
+        padding-top: 50px;
+        padding-left: 5px;
+        padding-right:5px;
+        margin-right:5px;
+        background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      }
+      footer {
+        padding-left: 15px;
+        padding-right: 15px;
+        background: linear-gradient(to bottom, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      }
+      img {
+        position: relative;
+        height: 300px;
+        width: 300px;
+      }
+
+      .jumbotronTransp {
+        padding: 30px;
+        height: 350px;
+        width: 700px;
+        margin-bottom: 30px;
+        font-size: 21px;
+        font-weight: 200;
+        line-height: 2.1428571435;
+        color: inherit;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
+        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+        background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+        background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+        background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      }
+      .jumbotronTransp2 {
+        padding: 5px;
+        height: 1050px;
+        width: 910px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 1px;
+        font-size: 21px;
+        font-weight: 200;
+        line-height: 2.1428571435;
+        color: inherit;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
+        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+        background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+        background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+        background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      }
+      .jumbotronTransp3 {
+        padding: 5px;
+        height: 1050px;
+        width: 910px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 1px;
+        font-size: 21px;
+        font-weight: 200;
+        line-height: 2.1428571435;
+        color: inherit;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
+        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+        background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+        background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+        background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      }
+      .content {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.embed-container {
+    height: 0;
+    width: 90%;
+    height: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+			
+.embed-container iframe {
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+      
+      ul li a {
+        color:#9932CC;
+        display:block;
+        text-decoration:none;
+        padding:10px;
+      }
+      ul {
+        list-style-type:none;
+      }
+      li {
+        display:block;
+      }
+      ul li a:hover {
+        color:#A9A9A9;
+        display:block;
+        text-decoration:none;
+      }
+      li:hover {
+        background-color:#ead6b7;
+      }
+      .active a {
+        color:#9932CC;
+        text-decoration:none;
+      }
+      li a {
+        color:#ba55d3;
+        background:#333;
+        padding:5px;
+        display:block;
+      }
+      li a:hover {
+        color:#fdf5e6;
+        background:#333;
+        text-decoration:none;
+      }
+      #myplaylist, audio {
+        background:#666;
+        width:400px;
+        padding:20px;
+      }
+      .active a {
+        color:#5DB0E6;
+        text-decoration:none;
+      }
+      li a {
+        color:#eeeedd;
+        background:#333;
+        padding:5px;
+        display:block;
+      }
+      li a:hover {
+        text-decoration:none;
+      }
+      /*       * Off Canvas       * --------------------------------------------------       */
+      @media screen and(max-width: 768px) {
+        .row-offcanvas {
+          position: absolute;
+          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+          -webkit-transition: all 0.25s ease-out;
+          -moz-transition: all 0.25s ease-out;
+          transition: all 0.25s ease-out;
+        }
+        .row-offcanvas-right .sidebar-offcanvas {
+          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+          right: -50%;
+          /* 6 columns */
+        }
+        .row-offcanvas-left .sidebar-offcanvas {
+          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+          left: -50%;
+          /* 6 columns */
+        }
+        .row-offcanvas-right.active {
+          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+          right: 50%;
+          /* 6 columns */
+        }
+        .row-offcanvas-left.active {
+          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+          left: 50%;
+          /* 6 columns */
+        }
+        .well1 {
+          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+          width: 50%;
+        }
+        .sidebar-offcanvas {
+          position: absolute;
+          top: 0;
+          width: 50%;
+          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+          /* 6 columns */
+        }
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Marcel Anton</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="music.html">Music</a>
+            </li>
+            <li>
+              <a href="calendar.html">Calendar</a>
+            </li>
+            <li>
+              <b><font color="white" sizse="2"><a href="social.html">SocialBlog</a></font></b>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="store.html">Store</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.nav-collapse -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.navbar -->
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button></p>
+
+          <div class="row"></div>
+          
+          <div class="jumbotronTransp2">
+          <div class="jumbotronTransp3">
+          <div class="content">
+          <div class="embed-container">
+          <iframe src="https://www.facebook.com/gx2research" scrolling="yes" frameborder="0"></iframe>
+            </div>
+            </div>
+
+
+          </div>
+          </div>
+          
+        </div>
+        
+        <!--/span-->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="well1 sidebar-nav clearfix well1-sm">
+            <ul class="nav">
+              <li>Fans</li>
+              <li class="active">
+                <a href="#">concerts</a>
+              </li>
+              <li class="active">
+                <a href="#">images</a>
+              </li>
+              <li>
+                <a href="#">mailing list</a>
+              </li>
+              <li>
+                <a href="#">forum</a>
+              </li>
+              <li>Music</li>
+              <li>
+                <a href="audio.html">audio</a>
+              </li>
+              <li>
+                <a href="video.html">video</a>
+              </li>
+              <li>
+                <a href="#">store</a>
+              </li>
+              <li>Spiritual</li>
+              <li>
+                <a href="#">meditation</a>
+              </li>
+              <li>
+                <a href="#">guided journeys</a>
+              </li>
+            </ul>
+          </div>
+          <!--/.well -->
+        </div>
+        <!--/span-->
+      </div>
+      <!--/row-->
+      <hr>
+      <footer>
+        <p>gx2research &copy;2015</p>
+      </footer>
+    </div>
+    <!--/.container-->
+    <script>
+      $(document).ready(function() {
+        $('[data-toggle=offcanvas]').click(function() {
+          $('.row-offcanvas').toggleClass('active');
+        });
+      });
+    </script>
+  </body>
+
+</html>
