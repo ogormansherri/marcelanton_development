@@ -56,6 +56,8 @@
             padding: 10px;
             data-width: 500px;
             data-height: 500px;
+            width: 500px;
+            height: 500px;
             background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
             background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
             background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
@@ -64,6 +66,8 @@
       }
       .fbroot{
             padding: 1px;
+            height: 500px;
+            width: 500px;
       }
       
       ul li a {
