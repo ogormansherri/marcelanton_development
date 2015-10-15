@@ -18,8 +18,8 @@
 
       .jumbotronTransp {
         padding: 5px;
-        height: 600px;
-        width: 700px;
+        height: 500px;
+        width: 500px;
         margin-bottom: 30px;
         font-size: 21px;
         font-weight: 200;
@@ -34,8 +34,8 @@
       }
       .jumbotronTransp2 {
         padding: 5px;
-        height: 650px;
-        width: 700px;
+        height: 500px;
+        width: 500px;
         margin-bottom: 10px;
         margin-top: 10px;
         margin-left: 10px;
@@ -54,8 +54,8 @@
       .fb-page{
             display: inline-block;
             padding: 10px;
-            data-width: 690px;
-            data-height: 640px;
+            data-width: 500px;
+            data-height: 500px;
             background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
             background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
             background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
@@ -63,9 +63,7 @@
             background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
       }
       .fbroot{
-        width:650px;
-        height: 440px;
-        background-color: purple;
+            padding: 1px;
       }
       
       ul li a {
