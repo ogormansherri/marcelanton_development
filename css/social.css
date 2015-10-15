@@ -1,158 +1,157 @@
-      /*       * Style tweaks       * --------------------------------------------------       */
-      body {
-        padding-top: 70px;
-        padding-left: 50px;
-        padding-right:50px;
-        background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-      }
-      footer {
-        padding-left: 15px;
-        padding-right: 15px;
-        background: linear-gradient(to bottom, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-      }
-      img {
-        position: relative;
-        height: 300px;
-        width: 300px;
-      }
+/*       * Style tweaks       * --------------------------------------------------       */
+body {
+      padding-top: 70px;
+      padding-left: 50px;
+      padding-right:50px;
+      background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+}
+footer {
+      padding-left: 15px;
+      padding-right: 15px;
+      background: linear-gradient(to bottom, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+}
+img {
+      position: relative;
+      height: 300px;
+      width: 300px;
+}
 #imageFB {
-    height: auto; 
-    width: auto; 
-    max-width: 200px; 
-    max-height: 100px;
+      height: auto; 
+      width: auto; 
+      max-width: 200px; 
+      max-height: 100px;
 }
 #imageTweet{
-  height: auto;
-  width: auto;
-  max-width: 200px;
-  max-height: 100px;
+      height: auto;
+      width: auto;
+      max-width: 200px;
+      max-height: 100px;
 }
-      .jumbotronTransp {
-        padding: 30px;
-        height: 350px;
-        width: 700px;
-        margin-bottom: 30px;
-        font-size: 21px;
-        font-weight: 200;
-        line-height: 2.1428571435;
-        color: inherit;
-        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
-        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-        background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-        background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-        background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-      }
-      .jumbotronTransp2 {
-        padding: 25px;
-        height: 250px;
-        width: 700px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size: 21px;
-        font-weight: 200;
-        line-height: 2.1428571435;
-        color: inherit;
-        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
-        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-        background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-        background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-        background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-      }
-      
-      .fb-login-button{
-        width:50px;
-      }
-      ul li a {
-        color:#9932CC;
-        display:block;
-        text-decoration:none;
-        padding:10px;
-      }
-      ul {
-        list-style-type:none;
-      }
-      li {
-        display:block;
-      }
-      ul li a:hover {
-        color:#A9A9A9;
-        display:block;
-        text-decoration:none;
-      }
-      li:hover {
-        background-color:#ead6b7;
-      }
-      .active a {
-        color:#9932CC;
-        text-decoration:none;
-      }
-      li a {
-        color:#ba55d3;
-        background:#333;
-        padding:5px;
-        display:block;
-      }
-      li a:hover {
-        color:#fdf5e6;
-        background:#333;
-        text-decoration:none;
-      }
-      #myplaylist, audio {
-        background:#666;
-        width:400px;
-        padding:20px;
-      }
-      .active a {
-        color:#5DB0E6;
-        text-decoration:none;
-      }
-      li a {
-        color:#eeeedd;
-        background:#333;
-        padding:5px;
-        display:block;
-      }
-      li a:hover {
-        text-decoration:none;
-      }
-      /*       * Off Canvas       * --------------------------------------------------       */
-      @media screen and(max-width: 768px) {
-        .row-offcanvas {
-          position: relative;
-          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-          -webkit-transition: all 0.25s ease-out;
-          -moz-transition: all 0.25s ease-out;
-          transition: all 0.25s ease-out;
-        }
-        .row-offcanvas-right .sidebar-offcanvas {
-          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-          right: -50%;
-          /* 6 columns */
-        }
-        .row-offcanvas-left .sidebar-offcanvas {
-          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-          left: -50%;
-          /* 6 columns */
-        }
-        .row-offcanvas-right.active {
-          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-          right: 50%;
-          /* 6 columns */
-        }
-        .row-offcanvas-left.active {
-          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-          left: 50%;
-          /* 6 columns */
-        }
-        .well1 {
-          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-        }
-        .sidebar-offcanvas {
-          position: fixed;
-          top: 0;
-          width: 50%;
-          background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-          /* 6 columns */
-        }
+.jumbotronTransp {
+      padding: 30px;
+      height: 350px;
+      width: 700px;
+      margin-bottom: 30px;
+      font-size: 21px;
+      font-weight: 200;
+      line-height: 2.1428571435;
+      color: inherit;
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
+      background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+}
+.jumbotronTransp2 {
+      padding: 25px;
+      height: 250px;
+      width: 700px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 21px;
+      font-weight: 200;
+      line-height: 2.1428571435;
+      color: inherit;
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
+      background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+}
+.fb-login-button{
+      width:50px;
+}
+ul li a {
+      color:#9932CC;
+      display:block;
+      text-decoration:none;
+      padding:10px;
+}
+ul {
+      list-style-type:none;
+}
+li {
+      display:block;
+}
+ul li a:hover {
+      color:#A9A9A9;
+      display:block;
+      text-decoration:none;
+}
+li:hover {
+      background-color:#ead6b7;
+}
+.active a {
+      color:#9932CC;
+      text-decoration:none;
+}
+li a {
+      color:#ba55d3;
+      background:#333;
+      padding:5px;
+      display:block;
+}
+li a:hover {
+      color:#fdf5e6;
+      background:#333;
+      text-decoration:none;
+}
+#myplaylist, audio {
+      background:#666;
+      width:400px;
+      padding:20px;
+}
+.active a {
+      color:#5DB0E6;
+      text-decoration:none;
+}
+li a {
+      color:#eeeedd;
+      background:#333;
+      padding:5px;
+      display:block;
+}
+li a:hover {
+      text-decoration:none;
+}
+/*       * Off Canvas       * --------------------------------------------------       */
+@media screen and(max-width: 768px) {
+      .row-offcanvas {
+      position: relative;
+      background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      -webkit-transition: all 0.25s ease-out;
+      -moz-transition: all 0.25s ease-out;
+      transition: all 0.25s ease-out;
+}
+.row-offcanvas-right .sidebar-offcanvas {
+      background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      right: -50%;
+      /* 6 columns */
+}
+.row-offcanvas-left .sidebar-offcanvas {
+      background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      left: -50%;
+      /* 6 columns */
+}
+.row-offcanvas-right.active {
+      background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      right: 50%;
+      /* 6 columns */
+}
+.row-offcanvas-left.active {
+      background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      left: 50%;
+      /* 6 columns */
+}
+.well1 {
+      background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+}
+.sidebar-offcanvas {
+      position: fixed;
+      top: 0;
+      width: 50%;
+      background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+      /* 6 columns */
+}
