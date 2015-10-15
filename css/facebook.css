@@ -53,7 +53,11 @@
             padding: 10px;
             width: 650px;
             height: 650px;
-            background-color: purple;
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
+            background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+            background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+            background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+            background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
             overflow-y: scroll;
       }
       .fbroot{
