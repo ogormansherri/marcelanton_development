@@ -64,6 +64,12 @@
             background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
             background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
       }
+      .fb-xfbml-parse-ignore{
+            display: inline-block;
+            padding:5px;
+            data-width: 500px;
+            data-height: 500px;
+      }
       .fbroot{
             padding: 1px;
             height: 500px;
