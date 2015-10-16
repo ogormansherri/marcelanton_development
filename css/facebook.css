@@ -56,7 +56,7 @@
             padding: 5px;
             data-width: 600px;
             data-height: 550px;
-            width: 560px;
+            width: 530px;
             height: 600px;
             background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
             background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
@@ -67,7 +67,7 @@
       .fb-xfbml-parse-ignore{
             display: inline-block;
             padding:5px;
-            data-width: 560px;
+            data-width: 600px;
             data-height: 600px;
       }
       .fbroot{
