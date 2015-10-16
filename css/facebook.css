@@ -54,7 +54,7 @@
       .fb-page{
             display: inline-block;
             padding: 5px;
-            data-width: 500px;
+            data-width: 600px;
             data-height: 550px;
             width: 600px;
             height: 600px;
@@ -67,7 +67,7 @@
       .fb-xfbml-parse-ignore{
             display: inline-block;
             padding:5px;
-            data-width: 600px;
+            data-width: 560px;
             data-height: 600px;
       }
       .fbroot{
