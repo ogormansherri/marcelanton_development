@@ -53,11 +53,11 @@
       }
       .fb-page{
             display: inline-block;
-            padding: 10px;
-            data-width: 500px;
-            data-height: 500px;
-            width: 500px;
-            height: 500px;
+            padding: 5px;
+            data-width: 600px;
+            data-height: 600px;
+            width: 600px;
+            height: 600px;
             background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
             background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
             background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
@@ -67,8 +67,8 @@
       .fb-xfbml-parse-ignore{
             display: inline-block;
             padding:5px;
-            data-width: 500px;
-            data-height: 500px;
+            data-width: 600px;
+            data-height: 600px;
       }
       .fbroot{
             padding: 1px;
