@@ -52,7 +52,7 @@
         background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
       }
       .fb-page{
-            display: inline-block;
+            display: inline-block center;
             padding: 5px;
             data-width: 600px;
             data-height: 550px;
@@ -65,7 +65,7 @@
             background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
       }
       .fb-xfbml-parse-ignore{
-            display: inline-block;
+            display: inline-block center;
             padding:5px;
             data-width: 600px;
             data-height: 600px;
