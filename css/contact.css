@@ -1,4 +1,10 @@
  /*       * Style tweaks       * --------------------------------------------------       */
+h1{
+ font-family: 'Oswald', sans-serif;
+ font-size: 30px;
+ text-transform: uppercase;
+ color: #216182;
+}
  body {
    padding-top: 70px;
    padding-left: 50px;
