@@ -22,20 +22,22 @@ img {
   width: 300px;
   }
 .jumbotronTransp {
-  padding: 30px;
-  height: 350px;
-  width: 880px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.1428571435;
-  color: inherit;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
-  background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-  background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-  background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-  background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
-  }
+ display: block;
+ margin: 0 auto;
+ padding: 30px;
+ height: 350px;
+ width: 880px;
+ font-family: 'Muli', sans-serif;
+ font-size: 16px;
+ font-weight: 200;
+ line-height: 2.1428571435;
+ color: #999;
+ background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
+ background: -webkit-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+ background: -moz-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+ background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+ background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
+ }
 ul li a{
   color:#9932CC;
   display:block;
