@@ -66,6 +66,49 @@ img {
   color: #E0CCE0;
  }
  
+ input: focus, textarea: focus {
+  border: 1px solid #97d6eb;
+ }
+ 
+ /* styles the text area message field */
+ textarea{
+  height: 213px;
+  background-color: #efefef;
+ }
+ 
+ /* styles the text area boxes (submit button) */
+ #submit {
+  width: 127px;
+  height: 48px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+ }
+ 
+ /* style the submit hover */
+ #submit:hover {
+  color:#fff;
+  background-color: #216182;
+  opacity:0.9;
+ }
+
+/* Style the cancel button */
+#cancel {
+ width: 127px;
+ height: 28px;
+ text-align: center;
+ border:none;
+ margin-top: 20px;
+ cursor:pointer;
+} 
+ 
+/*Styles the cancel hover */
+#cancel: hover {
+ color: #fff;
+ background-color: #000;
+ opacity: 0.9;
+}
 /*links */ 
 ul li a{
   color:#9932CC;
