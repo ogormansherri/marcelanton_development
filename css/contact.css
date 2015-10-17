@@ -38,6 +38,11 @@ img {
  background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
  background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
  }
+ /*form labels for contact sheet*/
+ form {
+  margin: 0 auto;
+  width: 459px;
+ }
 ul li a{
   color:#9932CC;
   display:block;
