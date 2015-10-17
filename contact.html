@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-     <link rel="stylesheet" href="css/about.css">
+     <link rel="stylesheet" href="css/contact.css">
   </head>
   
   <body>
@@ -62,7 +62,21 @@
           <div class="row"></div>
          
          <div class="jumbotronTransp">
-
+          <form action="form.php"> method="post" enctype="multipart/form-data">
+            <h1 class="title">Contact</h1>
+              <label></label>
+              <input name="name" required="required" placeholder="Your Name">
+              
+              <label></label>
+              <input name="email" type="email" required="required" placeholder="Your Email">
+              
+              <label></label>
+              <textarea name="message" cols="20" rows="5" required="required" placeholder="Message"></textarea>
+              
+              <input id="cancel" name="cancel" value="Cancel"/>
+              <input id="submit" name="submit" type="submit" value="Submit">
+          
+          </form>
           </div>
          
           <!--/row-->
