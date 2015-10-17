@@ -38,11 +38,35 @@ img {
  background: -o-linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
  background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
  }
- /*form labels for contact sheet*/
- form {
+ /* forms labels */
+ label{
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 2px;
+ }
+ 
+ /*centers the form labels for contact sheet*/
+  form {
   margin: 0 auto;
   width: 459px;
  }
+ 
+ /* Styles the textboxes for the form */
+ input, textarea, file {
+  width: 439px;
+  height: 27px;
+  background-color: #330033;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #1F001F;
+  padding: 10px;
+  margin-top: 3px;
+  font-size:0.9em;
+  color: #E0CCE0;
+ }
+ 
+/*links */ 
 ul li a{
   color:#9932CC;
   display:block;
