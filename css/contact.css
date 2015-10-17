@@ -24,7 +24,7 @@ img {
 .jumbotronTransp {
  display: block;
  margin: 0 auto;
- padding: 5px;
+ padding: 2px;
  height: 550px;
  width: 510px;
  font-family: 'Muli', sans-serif;
@@ -60,7 +60,7 @@ img {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border: 1px solid #1F001F;
-  padding: 10px;
+  padding: 5px;
   margin-top: 3px;
   font-size:0.9em;
   color: #E0CCE0;
