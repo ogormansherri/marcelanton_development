@@ -54,7 +54,7 @@ img {
  /* Styles the textboxes for the form */
  input, textarea, file {
   width: 439px;
-  height: 27px;
+  height: 30px;
   background-color: #330033;
   border-radius: 5px;
   -moz-border-radius: 5px;
