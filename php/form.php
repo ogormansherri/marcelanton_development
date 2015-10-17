@@ -2,7 +2,7 @@
   $name = $_POST['name'];
   $email = $_POST['email'];
   $message = $_POST['message'];
-  $from = 'http://verdu103.github.io/marcelanton_development';
+  $from = 'From: http://verdu103.github.io/marcelanton_development';
   $to = "sverduo@me.com"
   $subject = 'Website Design Information Email Inquiry'
   
