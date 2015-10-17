@@ -24,7 +24,7 @@ img {
 .jumbotronTransp {
  display: block;
  margin: 0 auto;
- padding: 30px;
+ padding: 10px;
  height: 550px;
  width: 550px;
  font-family: 'Muli', sans-serif;
@@ -41,7 +41,7 @@ img {
  /* forms labels */
  label{
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
   letter-spacing: 2px;
  }
  
@@ -96,7 +96,7 @@ img {
 /* Style the cancel button */
 #cancel {
  width: 127px;
- height: 28px;
+ height: 48px;
  text-align: center;
  border:none;
  margin-top: 20px;
