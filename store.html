@@ -11,10 +11,27 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-     <link rel="stylesheet" href="css/store.css">
+    <link rel="stylesheet" href="css/store.css">
   </head>
   
   <body>
+     <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '870172006370605',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+    
     <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -38,13 +55,13 @@
               <a href="calendar.html">Calendar</a>
             </li>
             <li>
-              <a href="social.html">Social Blog</a>
+              <b><font color="white" sizse="2"><a href="social.html">SocialBlog</a></font></b>
             </li>
             <li>
               <a href="contact.html">Contact</a>
             </li>
             <li>
-              <b><font color=white size=2>Store</b></font>
+              <a href="store.html">Store</a>
             </li>
           </ul>
         </div>
@@ -58,35 +75,37 @@
         <div class="col-xs-12 col-sm-9">
           <p class="pull-right visible-xs">
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button></p>
-          <div class="jumbotronTransp">
-            
-          </div>
-     
-                   
-          <div class="row"></div>
-         
-         <div class="jumbotronTransp">
 
-                     </div>
-         
-          <!--/row-->
+          <div class="row"></div>
+          
+            <div class="equalHWrap eqWrap">
+              <div class="equalHW eq">
+              
+                </div>
+              <div class="equalHW eq">
+              
+              </div>
+              <div class="equalHW eq">
+              
+              </div>
+        </div> <!--ends equalcontainer-->
         </div>
-        <!--/span-->
+
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
           <div class="well1 sidebar-nav clearfix well1-sm">
             <ul class="nav">
               <li>Fans</li>
               <li class="active">
-                <a href="concerts.html">concerts</a>
+                <a href="#">concerts</a>
               </li>
               <li class="active">
-                <a href="images.html">images</a>
+                <a href="#">images</a>
               </li>
               <li>
-                <a href="mailing.html">mailing list</a>
+                <a href="#">mailing list</a>
               </li>
               <li>
-                <a href="forum.html">forum</a>
+                <a href="#">forum</a>
               </li>
               <li>Music</li>
               <li>
@@ -96,14 +115,14 @@
                 <a href="video.html">video</a>
               </li>
               <li>
-                <a href="store.html">store</a>
+                <a href="#">store</a>
               </li>
               <li>Spiritual</li>
               <li>
-                <a href="meditation.html">meditation</a>
+                <a href="#">meditation</a>
               </li>
               <li>
-                <a href="journeys.html">guided journeys</a>
+                <a href="#">guided journeys</a>
               </li>
             </ul>
           </div>
