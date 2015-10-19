@@ -33,6 +33,12 @@ img {
       max-width: 200px;
       max-height: 100px;
 }
+.mycontainer {
+      padding: 10px;
+      height: 360px;
+      width: 800px;
+}
+
 .jumbotronTransp {
       padding: 30px;
       height: 350px;
