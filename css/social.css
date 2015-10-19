@@ -49,6 +49,22 @@ img {
       background: linear-gradient(rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
 }
 
+.jumbotronTransp2 {
+      padding: 30px;
+      height: 350px;
+      width: 260px;
+      margin-bottom: 30px;
+      font-size: 21px;
+      font-weight: 200;
+      line-height: 2.1428571435;
+      color: inherit;
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
+      background: -webkit-linear-gradient(rgba(41, 0, 41, 0.3), rgba(155, 0, 211, 0.3));
+      background: -moz-linear-gradient(rgba(41, 0, 41, 0.3), rgba(155, 0, 211, 0.3));
+      background: -o-linear-gradient(rgba(41, 0, 41, 0.3), rgba(155, 0, 211, 0.3));
+      background: linear-gradient(rgba(41, 0, 41, 0.3), rgba(155, 0, 211, 0.3));
+}
+
 .fb-login-button{
       width:50px;
 }
