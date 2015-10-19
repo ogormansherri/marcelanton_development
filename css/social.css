@@ -36,7 +36,7 @@ img {
 .eqWrap {display: flex;}
 
 .eq {padding: 10px;}
-.eq:nth-of-type(odd) { background: rgba(155,0,211,0.3);}
+.eq:nth-of-type(odd) { background: rgba(155,0,211,0.5);}
 .eq:nth-of-type(even) { background: rgba(0,200,0,0.5);}
 .equalHW {flex: 1;}
 
