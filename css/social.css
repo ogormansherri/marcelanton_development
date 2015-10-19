@@ -37,7 +37,7 @@ img {
 
 .eq {padding: 10px;}
 .eq:nth-of-type(odd) { background: rgba(61,0,82,0.5);}
-.eq:nth-of-type(even) { background: rgba(0,46,0,0.5);}
+.eq:nth-of-type(even) { background: rgba(51,92,51,0.5);}
 .equalHW {flex: 1;}
 
 .jumbotronTransp {
