@@ -33,11 +33,12 @@ img {
       max-width: 200px;
       max-height: 100px;
 }
-.mycontainer {
-      padding: 10px;
-      height: 360px;
-      width: 800px;
-}
+.eqWrap {display: flex;}
+
+.eq {padding: 10px;}
+.eq:nth-of-type(odd) { background: #3D0052;}
+.eq:nth-of-type(even) { background: #002E00;}
+.equalHW {flex: 1;}
 
 .jumbotronTransp {
       padding: 30px;
