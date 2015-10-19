@@ -58,11 +58,11 @@ img {
       font-weight: 200;
       line-height: 2.1428571435;
       color: inherit;
-      background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(155, 0, 211, 0.3)));
-      background: -webkit-linear-gradient(rgba(41, 0, 41, 0.3), rgba(155, 0, 211, 0.3));
-      background: -moz-linear-gradient(rgba(41, 0, 41, 0.3), rgba(155, 0, 211, 0.3));
-      background: -o-linear-gradient(rgba(41, 0, 41, 0.3), rgba(155, 0, 211, 0.3));
-      background: linear-gradient(rgba(41, 0, 41, 0.3), rgba(155, 0, 211, 0.3));
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.3)), to(rgba(0, 21, 0, 0.3)));
+      background: -webkit-linear-gradient(rgba(41, 0, 41, 0.3), rgba(0, 21, 0, 0.3));
+      background: -moz-linear-gradient(rgba(41, 0, 41, 0.3), rgba(0, 21, 0, 0.3));
+      background: -o-linear-gradient(rgba(41, 0, 41, 0.3), rgba(0, 21, 0, 0.3));
+      background: linear-gradient(rgba(41, 0, 41, 0.3), rgba(0, 21, 0, 0.3));
 }
 
 .fb-login-button{
