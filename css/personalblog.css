@@ -17,7 +17,7 @@
       }
 
       .jumbotronTransp {
-        padding: 30px;
+        padding: 10px;
         height: 500px;
         width: 700px;
         margin-bottom: 30px;
@@ -25,14 +25,14 @@
         font-weight: 200;
         line-height: 2.1428571435;
         color: inherit;
-        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.8)), to(rgba(155, 0, 211, 0.5)));
-        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
-        background: -moz-linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
-        background: -o-linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
-        background: linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.5)), to(rgba(155, 0, 211, 0.5)));
+        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
+        background: -moz-linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
+        background: -o-linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
+        background: linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
       }
       .jumbotronTransp2 {
-        padding: 25px;
+        padding: 10px;
         height: 500px;
         width: 700px;
         margin-bottom: 10px;
@@ -43,14 +43,14 @@
         font-weight: 200;
         line-height: 2.1428571435;
         color: inherit;
-        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.8)), to(rgba(155, 0, 211, 0.5)));
-        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
-        background: -moz-linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
-        background: -o-linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
-        background: linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.5)), to(rgba(155, 0, 211, 0.5)));
+        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
+        background: -moz-linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
+        background: -o-linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
+        background: linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
       }
       .jumbotronTransp3 {
-        padding: 25px;
+        padding: 5px;
         height: 500px;
         width: 680px;
         margin-bottom: 10px;
@@ -61,11 +61,11 @@
         font-weight: 200;
         line-height: 2.1428571435;
         color: inherit;
-        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.8)), to(rgba(155, 0, 211, 0.5)));
-        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
-        background: -moz-linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
-        background: -o-linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
-        background: linear-gradient(rgba(0, 200, 0, 0.8), rgba(155, 0, 211, 0.5));
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 200, 0, 0.5)), to(rgba(155, 0, 211, 0.5)));
+        background: -webkit-linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
+        background: -moz-linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
+        background: -o-linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
+        background: linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
       }
       ul li a {
         color:#9932CC;
