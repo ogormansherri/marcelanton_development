@@ -40,7 +40,7 @@
         display: block;
         height: 500px;
         width: 700px;
-        position: absolute;
+        position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
