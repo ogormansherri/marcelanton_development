@@ -17,6 +17,8 @@
       }
 
       .jumbotronTransp {
+       border-radius: 25px;
+       border: 2px solid #A9A9A9;
         padding: 10px;
         height: 500px;
         width: 700px;
@@ -32,6 +34,8 @@
         background: linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
       }
       .jumbotronTransp2 {
+        border-radius: 25px;
+        border: 2px solid #A9A9A9;
         padding: 1px;
         height: 500px;
         width: 700px;
@@ -50,6 +54,8 @@
         background: linear-gradient(rgba(0, 200, 0, 0.5), rgba(155, 0, 211, 0.5));
       }
       .jumbotronTransp3 {
+        border-radius: 25px;
+        border: 2px solid #A9A9A9;
         padding: 3px;
         height: 500px;
         width: 680px;
