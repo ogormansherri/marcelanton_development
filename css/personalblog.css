@@ -18,7 +18,7 @@
 
       .jumbotronTransp {
         border-radius: 25px;
-        border: 2px solid #262626;
+        border: 5px solid #262626;
         padding: 10px;
         height: 500px;
         width: 700px;
@@ -35,7 +35,7 @@
       }
       .jumbotronTransp2 {
         border-radius: 25px;
-        border: 2px solid #262626;
+        border: 5px solid #262626;
         padding: 1px;
         height: 500px;
         width: 700px;
@@ -55,7 +55,7 @@
       }
       .jumbotronTransp3 {
         border-radius: 25px;
-        border: 2px solid #262626;
+        border: 5px solid #262626;
         padding: 3px;
         height: 500px;
         width: 680px;
