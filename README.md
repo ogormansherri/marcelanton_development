@@ -28,3 +28,7 @@ development site
 # Tips to install twitter bootstrap on ruby:
 
 http://www.codelearn.org/ruby-on-rails-tutorial/introduction-views-layouts-helpers-assets-pipeline
+
+# To handle images in Ruby:
+
+http://cloudinary.com/documentation/rails_image_manipulation
