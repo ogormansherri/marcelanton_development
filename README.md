@@ -29,6 +29,8 @@ development site
 
 http://www.codelearn.org/ruby-on-rails-tutorial/introduction-views-layouts-helpers-assets-pipeline
 
+https://www.railstutorial.org/book/filling_in_the_layout
+
 # To handle images in Ruby:
 
 http://cloudinary.com/documentation/rails_image_manipulation
