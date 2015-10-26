@@ -31,6 +31,12 @@ http://guides.rubyonrails.org/getting_started.html
 
 # Tips to install twitter bootstrap on ruby:
 
+## This one below is best:
+
+https://www.rubyplus.com/articles/1371
+
+## The other sources to learn are:
+
 http://www.codelearn.org/ruby-on-rails-tutorial/introduction-views-layouts-helpers-assets-pipeline
 
 https://www.railstutorial.org/book/filling_in_the_layout
