@@ -79,6 +79,9 @@
         /*.well1 {
         background: linear-gradient(to top, rgba(0, 200, 0, 0.3), rgba(155, 0, 211, 0.3));
         /}*/
+        .well1 {
+              background: #333;
+        }
         .sidebar-offcanvas {
           position: fixed;
           top: 0;
