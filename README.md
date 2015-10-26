@@ -37,6 +37,8 @@ https://www.rubyplus.com/articles/1371
 
 ## The other sources to learn are:
 
+http://www.gotealeaf.com/blog/integrating-rails-and-bootstrap-part-1
+
 http://www.codelearn.org/ruby-on-rails-tutorial/introduction-views-layouts-helpers-assets-pipeline
 
 https://www.railstutorial.org/book/filling_in_the_layout
