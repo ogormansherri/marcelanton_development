@@ -25,6 +25,10 @@ development site
 .eq:nth-of-type(even) { background: rgba(0,200,0,0.5);}
 .equalHW {flex: 1;}
 ```
+# Ruby Blog Tutorial (modified for customization)
+
+http://guides.rubyonrails.org/getting_started.html
+
 # Tips to install twitter bootstrap on ruby:
 
 http://www.codelearn.org/ruby-on-rails-tutorial/introduction-views-layouts-helpers-assets-pipeline
