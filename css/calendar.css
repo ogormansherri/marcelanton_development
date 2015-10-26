@@ -54,7 +54,7 @@ ul li a {
       text-decoration:none;
       padding:10px;
 }
-ul {list-style-type:none;}
+ul {list-style-type:none;background:#333;}/*background is new */
 li {display:block;}
 ul li a:hover {
       color:#A9A9A9;
