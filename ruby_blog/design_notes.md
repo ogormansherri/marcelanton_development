@@ -9,4 +9,4 @@ Tables should look like this:
 | User ID       | Name          | Email            |
 | ------------- |:-------------:| ----------------:|
 | Integer       | String        | String           |
-| Number        | Person        | name@server.com  |
+| Number        | Person        | email address    |
