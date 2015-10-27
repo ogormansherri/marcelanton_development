@@ -1,6 +1,10 @@
 # marcelanton_development
 development site
 
+# To float an image 
+
+Used to wrap text around an image: http://www.w3schools.com/css/css_float.asp
+
 # for equal columns in html5:
 ```
  <div class="equalHWrap eqWrap">
