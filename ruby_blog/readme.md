@@ -4,3 +4,7 @@
 
 https://c9.io/
 
+# Palindrome Finder
+
+Section 4.4.2 on https://www.railstutorial.org/book/rails_flavored_ruby
+
