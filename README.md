@@ -35,7 +35,9 @@ http://guides.rubyonrails.org/getting_started.html
 
 https://www.rubyplus.com/articles/1371
 
-## The other sources to learn are:
+## The other sources to learn from are:
+
+https://github.com/twbs/bootstrap-sass
 
 http://www.gotealeaf.com/blog/integrating-rails-and-bootstrap-part-1
 
